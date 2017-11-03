@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8116A36D1FABE8AE00592B5F /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116A36C1FABE8AE00592B5F /* AnimalViewController.swift */; };
+		8116A36F1FABE8D600592B5F /* DetailAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8116A36E1FABE8D600592B5F /* DetailAnimalViewController.swift */; };
 		DE07F55F1FAB611300DA3ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */; };
-		DE07F5611FAB611300DA3ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07F5601FAB611300DA3ABA /* ViewController.swift */; };
 		DE07F5641FAB611300DA3ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE07F5621FAB611300DA3ABA /* Main.storyboard */; };
 		DE07F5661FAB611300DA3ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE07F5651FAB611300DA3ABA /* Assets.xcassets */; };
 		DE07F5691FAB611300DA3ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE07F5671FAB611300DA3ABA /* LaunchScreen.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8116A36C1FABE8AE00592B5F /* AnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		8116A36E1FABE8D600592B5F /* DetailAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAnimalViewController.swift; sourceTree = "<group>"; };
 		DE07F55B1FAB611300DA3ABA /* AC-iOS-Multiple-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-Multiple-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE07F5601FAB611300DA3ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE07F5631FAB611300DA3ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE07F5651FAB611300DA3ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE07F5681FAB611300DA3ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8116A3701FABE8E000592B5F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8116A36E1FABE8D600592B5F /* DetailAnimalViewController.swift */,
+				8116A36C1FABE8AE00592B5F /* AnimalViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		DE07F5521FAB611300DA3ABA = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				DE07F5701FAB627600DA3ABA /* ZooAnimal.swift */,
-				DE07F5601FAB611300DA3ABA /* ViewController.swift */,
 				DE07F5621FAB611300DA3ABA /* Main.storyboard */,
+				8116A3701FABE8E000592B5F /* Controllers */,
 				DE07F55E1FAB611300DA3ABA /* AppDelegate.swift */,
 				DE07F5651FAB611300DA3ABA /* Assets.xcassets */,
 				DE07F5671FAB611300DA3ABA /* LaunchScreen.storyboard */,
@@ -139,8 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE07F5611FAB611300DA3ABA /* ViewController.swift in Sources */,
 				DE07F5711FAB627600DA3ABA /* ZooAnimal.swift in Sources */,
+				8116A36D1FABE8AE00592B5F /* AnimalViewController.swift in Sources */,
+				8116A36F1FABE8D600592B5F /* DetailAnimalViewController.swift in Sources */,
 				DE07F55F1FAB611300DA3ABA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
